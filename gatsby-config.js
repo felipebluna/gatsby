@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `My Blog`,
+    title: `Felipe Luna`,
     position: `Analista TI JR`,
     description: `Estudante do curso de programação usando gatsby e graphql`,
     author: `Felipe Luna`,
