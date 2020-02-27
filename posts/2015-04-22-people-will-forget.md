@@ -15,6 +15,27 @@ bad Commas, wild Question Marks and devious Semikoli, but the Little
 Blind Text didn’t listen. She packed her seven versalia, put her initial
 into the belt and made herself on the way.
 
+```jsx
+import React from 'react'
+import Profile from '../Profile'
+import SocialLinks from '../SocialLinks'
+import MenuLinks from '../MenuLinks'
+
+import * as S from './styled'
+
+const Sidebar = () => (
+    <S.SidebarWrapper>
+        <Profile />
+        <SocialLinks />
+        <MenuLinks />
+    </S.SidebarWrapper>
+)
+
+
+export default Sidebar
+
+```
+
 Praesent accumsan odio in ante ullamcorper id pellentesque mauris rhoncus. Duis vitae neque dolor. Duis sed purus at eros bibendum cursus nec a nulla. Donec turpis quam, ultricies id pretium sit amet, gravida eget leo.
 
 Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
