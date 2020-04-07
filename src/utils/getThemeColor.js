@@ -5,4 +5,4 @@ const getThemeColor = () => {
     if (theme === "dark") return "#16202c"
   }
   
-  export default getThemeColor
+  export default getThemeColor 
